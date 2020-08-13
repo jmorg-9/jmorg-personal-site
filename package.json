@@ -5,10 +5,10 @@
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmorg-9/jmorg.me"
+    "url": "https://github.com/jmorg-9/jmorg-personal-site"
   },
   "bugs": {
-    "url": "hhttps://github.com/jmorg-9/jmorg.me/issues"
+    "url": "https://github.com/jmorg-9/jmorg-personal-site/issues"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
