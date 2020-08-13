@@ -1,11 +1,14 @@
 {
-  "name": "yellowcake",
-  "HomePage": "https://yellowcake.netlify.com/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
+  "name": "justinmorgan",
+  "description": "My personal site built on a GatsbyJs Starter",
+  "author": "Justin Morgan <jjmo21@gmail.com>",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thriveweb/yellowcake"
+    "url": "https://github.com/jmorg-9/jmorg.me"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/jmorg-9/jmorg.me/issues"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
