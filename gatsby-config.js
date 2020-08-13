@@ -3,6 +3,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Justin Morgan',
+    siteUrl: 'https://justinmorgan.netlify.com',
     description: `Personal Site`
   },
   plugins: [
