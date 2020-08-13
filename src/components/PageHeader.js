@@ -7,6 +7,7 @@ import './PageHeader.css'
 
 const PageHeader = ({
   title,
+  title2,
   name,
   subtitle,
   backgroundImage,
@@ -27,8 +28,11 @@ const PageHeader = ({
       )}
       <div className="container relative">
         <h1 className="PageHeader--Title">
-          {title}
-          <span>{name}</span>
+          <div>
+            {title}&nbsp;
+            <span>{name}</span>.
+          </div>
+          <div>{title2}</div>
         </h1>
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
@@ -41,7 +45,8 @@ const PageHeader = ({
 PageHeader.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  name: PropTypes.string
+  name: PropTypes.string,
+  title2: PropTypes.string
 }
 
 export default PageHeader
