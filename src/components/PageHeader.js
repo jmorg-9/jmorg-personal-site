@@ -40,7 +40,8 @@ const PageHeader = ({
 
 PageHeader.propTypes = {
   title: PropTypes.string,
-  subtitle: PropTypes.string
+  subtitle: PropTypes.string,
+  name: PropTypes.string
 }
 
 export default PageHeader
