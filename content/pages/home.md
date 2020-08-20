@@ -2,6 +2,7 @@
 template: HomePage
 slug: ''
 title: 'Hello, I''m'
+title2: lolo
 name: Justin Morgan
 featuredImage: 'https://ucarecdn.com/cfb4120f-4ec8-488e-9dec-b8a32661cd0e/'
 subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
