@@ -4,7 +4,7 @@ slug: ''
 title: 'Hello, I''m'
 title2: I'm a full-stack web developer.
 name: Justin Morgan
-featuredImage: 'https://ucarecdn.com/cfb4120f-4ec8-488e-9dec-b8a32661cd0e/'
+featuredImage: 'https://ucarecdn.com/28d135b1-5f54-40b0-b99a-5389467a5da8/'
 subtitle: ''
 meta:
   description: This is a meta description.
