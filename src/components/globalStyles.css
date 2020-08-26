@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+  font-family: 'Raleway', serif;
+}
+
 :root {
-  --primary: #00c2bd;
+  --primary: #f9a01b;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;

@@ -44,19 +44,22 @@ export class Navigation extends Component {
 
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
-        <div className="Nav--Container container">
-          <Link to="/" onClick={this.handleLinkClick}>
+        <div className="container">
+          <Link className="logo" to="/" onClick={this.handleLinkClick}>
             <Logo />
           </Link>
-          <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
-            <div
+          <div className="Nav--Container">
+            <div className="Nav--Links">
+              <NavLink to="/">home</NavLink>
+              <NavLink to="/about/">about</NavLink>
+              <NavLink to="/work/">work</NavLink>
+              <NavLink to="/components/">components</NavLink>
+              {/*<div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
               }`}
             >
-              <span
+               <span
                 className={`NavLink Nav--GroupParent ${
                   this.props.location.pathname.includes('posts') ||
                   this.props.location.pathname.includes('blog') ||
@@ -66,10 +69,10 @@ export class Navigation extends Component {
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
               >
-                Blog
+                blog
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+                    all Posts
                   </NavLink>
                   {subNav.posts.map((link, index) => (
                     <NavLink
@@ -82,9 +85,9 @@ export class Navigation extends Component {
                   ))}
                 </div>
               </span>
+            </div>*/}
+              <NavLink to="/contact/">contact</NavLink>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

@@ -1,16 +1,16 @@
 .Nav {
-  background: white;
+  background: #343333;
   position: sticky;
   top: 0;
   z-index: 2;
-  border-bottom: 1px solid var(--lightGrey);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
   height: 6rem;
+  justify-content: flex-end;
 }
 
 .Nav--Links {
@@ -18,6 +18,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  align-items: center;
+  left: 100px;
+  top: 9px;
 }
 
 .Nav--Links > * + * {
@@ -79,7 +87,7 @@
   top: 100%;
   left: 0;
   width: auto;
-  background: white;
+  background: #343333;
   /* opacity: 0; */
   max-height: 0;
   overflow: hidden;
