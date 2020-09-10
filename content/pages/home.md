@@ -4,6 +4,9 @@ slug: ''
 title: 'Hello, I''m'
 title2: I'm a full-stack web developer.
 name: Justin Morgan
+facebook: 'https://www.facebook.com/justin.morgan.56884/'
+linkedin: 'https://www.linkedin.com/in/justin-morgan-45626091/'
+github: 'https://github.com/jmorg-9'
 featuredImage: 'https://ucarecdn.com/28d135b1-5f54-40b0-b99a-5389467a5da8/'
 subtitle: ''
 meta:
