@@ -4,16 +4,6 @@
   padding: 15rem 0;
 }
 
-.PageHeader .overlay {
-  z-index: 9999;
-  min-height: 100%;
-  background-image: linear-gradient(
-    180deg,
-    rgba(52, 51, 51, 0) 0%,
-    #343333 100%
-  );
-  background-size: cover;
-}
 .PageHeader .BackgroundImage {
   opacity: 0.8;
 }
@@ -23,7 +13,9 @@
 }
 
 .PageHeader--Title {
-  font-size: 5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
   line-height: 70px;
 }
 
@@ -40,7 +32,63 @@
   animation: fadeIn 0.5s ease-out;
 }
 
+.PageHeader .container .social {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.PageHeader .container .social li {
+  margin: 0 10px;
+}
+
+.PageHeader .container .social li a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.PageHeader .container .social li a:after {
+  content: '';
+  background: #f9a01b;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  height: 100%;
+  width: 100%;
+}
+
+.PageHeader .container .social li a:before {
+  position: relative;
+  z-index: 1;
+}
+
+.PageHeader .container .social li a:hover:after {
+  top: 0;
+}
+
+.chevron {
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+
 @media (max-width: 600px) {
+  .PageHeader--Title {
+    font-size: 30px;
+    line-height: 35px;
+  }
   .PageHeader {
     padding: 7rem 0;
   }

@@ -4,7 +4,12 @@ import PropTypes from 'prop-types'
 import Image from './Image'
 import Content from './Content'
 import './PageHeader.css'
-import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaGithub,
+  FaChevronDown
+} from 'react-icons/fa'
 
 const PageHeader = ({
   title,
@@ -39,36 +44,26 @@ const PageHeader = ({
         </h1>
         <ul className="social">
           <li>
-            <a
-              className="fab fa-facebook-f"
-              href={facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={facebook} target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
           </li>
           <li>
-            <a
-              className="fab fa-linkedin-in"
-              href={linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={linkedin} target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a
-              className="fab fa-github"
-              href={github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={github} target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
           </li>
         </ul>
+        {/* <div className="chevron-box">
+          <a className="chevron" href="/#About">
+            <FaChevronDown />
+          </a>
+        </div> */}
       </div>
     </div>
   )

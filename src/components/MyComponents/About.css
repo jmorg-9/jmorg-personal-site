@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.center {
+  text-align: center;
+}
