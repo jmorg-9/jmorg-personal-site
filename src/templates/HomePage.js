@@ -12,6 +12,7 @@ export const HomePageTemplate = ({
   name,
   subtitle,
   featuredImage,
+  headshot,
   body,
   facebook,
   linkedin,
@@ -31,7 +32,7 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <About />
+        <About headshot={headshot} />
       </div>
     </section>
 
@@ -68,6 +69,7 @@ export const pageQuery = graphql`
         name
         subtitle
         featuredImage
+        headshot
         facebook
         linkedin
         github

@@ -8,3 +8,10 @@
 .center {
   text-align: center;
 }
+
+.about img {
+  position: relative;
+  left: -100px;
+  width: 452px;
+  height: 706px;
+}
