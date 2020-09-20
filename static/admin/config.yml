@@ -216,6 +216,12 @@ collections: # A list of collections the CMS should be able to edit
           - { label: About, name: aboutText, widget: string }
           - { label: About2, name: aboutText2, widget: string }
           - { label: Body, name: body, widget: markdown, required: false }
+          - {
+              label: AboutBody,
+              name: aboutBody,
+              widget: markdown,
+              required: true,
+            }
           - label: 'Accordion'
             name: 'accordion'
             widget: 'list'

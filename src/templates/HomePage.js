@@ -13,7 +13,7 @@ export const HomePageTemplate = ({
   subtitle,
   featuredImage,
   headshot,
-  body,
+  aboutBody,
   facebook,
   linkedin,
   github
@@ -32,7 +32,7 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <About headshot={headshot} />
+        <About headshot={headshot} body={aboutBody} />
       </div>
     </section>
 
