@@ -15,7 +15,7 @@ aboutText2: >-
   play video games, I’ve suffered a broken jaw and collar bone, I am a Nike
   enthusiast, and I’ve been cutting hair for over 10 years.
 aboutBody: >-
-  ## <div align="center"><b>Who’s this guy?</b></div>
+  <div align="center"><b>Who’s this guy?</b></div>
 
   <br/>
 
@@ -29,7 +29,7 @@ aboutBody: >-
   <br/>
 
 
-  ## <div align="center"><b>A few fun facts about myself</b></div>
+  <div align="center"><b>A few fun facts about myself</b></div>
 
   <br/>
 
