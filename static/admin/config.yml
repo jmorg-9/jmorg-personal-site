@@ -212,6 +212,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Github, name: github, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: About Headshot, name: headshot, widget: image }
+          - { label: Resume Background, name: resumeBackground, widget: image }
           - { label: Subtitle, name: subtitle, widget: string }
           - { label: Body, name: body, widget: markdown, required: false }
           - {
