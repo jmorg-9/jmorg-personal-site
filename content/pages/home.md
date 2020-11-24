@@ -24,6 +24,7 @@ aboutBody: >-
   passion for creating clean, intuitive, responsive web apps using various
   technologies.
 
+  <br/>
 
 
   <br/>
