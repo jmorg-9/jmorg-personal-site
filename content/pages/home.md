@@ -14,7 +14,29 @@ aboutText2: >-
   I was born in Honolulu Hawaii, I love basketball, I have a dog named Melo, I
   play video games, I’ve suffered a broken jaw and collar bone, I am a Nike
   enthusiast, and I’ve been cutting hair for over 10 years.
-aboutBody: "<div align=\"center\"><b>Who’s this guy?</b></div>\n<br/>\n\nI’m a Full-Stack Developer for Ebsco Industries in Birmingham, AL.\LI have passion for creating clean, intuitive, responsive web apps using various technologies.\n<br/>\n\n<div align=\"center\"><b>A few fun facts about myself</b></div>\n<br/>\n\nI was born in Honolulu Hawaii, I love basketball, I have a dog named Melo, I play video games, I’ve suffered a broken jaw and collar bone, my favorite brand is Nike, and I’ve been cutting hair for over 10 years."
+aboutBody: >-
+  ## <div align="center"><b>Who’s this guy?</b></div>
+
+  <br/>
+
+
+  I’m a Full-Stack Developer for Ebsco Industries in Birmingham, AL. I have
+  passion for creating clean, intuitive, responsive web apps using various
+  technologies.
+
+
+
+  <br/>
+
+
+  ## <div align="center"><b>A few fun facts about myself</b></div>
+
+  <br/>
+
+
+  I was born in Honolulu Hawaii, I love basketball, I have a dog named Melo, I
+  play video games, I’ve suffered a broken jaw and collar bone, my favorite
+  brand is Nike, and I’ve been cutting hair for over 10 years.
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
