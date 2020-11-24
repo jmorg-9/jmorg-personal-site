@@ -32,7 +32,7 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <About headshot={headshot} body={aboutBody} />
+        <About headshot={headshot} aboutBody={aboutBody} />
       </div>
     </section>
 
@@ -49,7 +49,7 @@ export const HomePageTemplate = ({
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
-    <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <HomePageTemplate {...page} {...page.frontmatter}  />
   </Layout>
 )
 
@@ -70,6 +70,7 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         headshot
+        aboutBody
         facebook
         linkedin
         github

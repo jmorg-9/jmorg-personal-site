@@ -213,8 +213,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: About Headshot, name: headshot, widget: image }
           - { label: Subtitle, name: subtitle, widget: string }
-          - { label: About, name: aboutText, widget: string }
-          - { label: About2, name: aboutText2, widget: string }
           - { label: Body, name: body, widget: markdown, required: false }
           - {
               label: AboutBody,

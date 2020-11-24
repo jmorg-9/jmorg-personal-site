@@ -4,18 +4,17 @@ import './About.css'
 import Image from '../Image'
 import Content from '../Content'
 
-const About = ({ headshot, aboutText, aboutText2, aboutBody }) => {
+const About = ({ headshot, aboutBody }) => {
   return (
-    <div class="about">
-      <div class="column">
+    <div className="about">
+      <div className="column">
         <div className="center">
           <img src={headshot} />
         </div>
       </div>
-      <div class="column">
-        <div className="center">
+      <div className="column">
+        <div className="">
           <Content source={aboutBody} />
-          {/* {aboutText} <br/> {aboutText2} */}
         </div>
       </div>
     </div>

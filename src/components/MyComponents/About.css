@@ -1,5 +1,7 @@
 .about {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .column {
