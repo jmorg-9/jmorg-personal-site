@@ -9,6 +9,10 @@ github: 'https://github.com/jmorg-9'
 featuredImage: 'https://ucarecdn.com/28d135b1-5f54-40b0-b99a-5389467a5da8/'
 headshot: 'https://ucarecdn.com/eae0e317-a36b-4cbb-ba40-0a781e0671ec/'
 resumeBackground: 'https://ucarecdn.com/c3012d3a-8ac3-4739-a5c9-c57b691c1954/'
+resumeTitle: What I've done & what I can do
+resumeSubtitle: >-
+  Feel free to take a deeper look at some things I've accomplished over the
+  years
 subtitle: I'm a full-stack web developer.
 aboutBody: >-
   <div align="center"><b>Who’s this guy?</b></div>
@@ -35,8 +39,8 @@ aboutBody: >-
   play video games, I’ve suffered a broken jaw and collar bone, my favorite
   brand is Nike, and I’ve been cutting hair for over 10 years.
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: ''
+  title: ''
 ---
 
 Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
