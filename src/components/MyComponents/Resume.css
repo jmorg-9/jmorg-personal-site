@@ -1,0 +1,76 @@
+.resume {
+  padding: 15rem 0;
+}
+
+.resume:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.resume-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.resume-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.button {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.resume .container .button a {
+  text-decoration: none;
+  width: 175px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f9a01b;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.resume .container .button a:after {
+  content: '';
+  background: #f9a01b;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  height: 100%;
+  width: 100%;
+}
+
+.resume .container .button a:before {
+  position: relative;
+  z-index: 0;
+}
+
+.resume .container .button a:hover:after {
+  top: 0;
+}

@@ -1,7 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './About.css'
-import Image from '../Image'
 import Content from '../Content'
 
 const About = ({ headshot, aboutBody }) => {
@@ -19,11 +17,6 @@ const About = ({ headshot, aboutBody }) => {
       </div>
     </div>
   )
-}
-
-About.propTypes = {
-  aboutText: PropTypes.string,
-  aboutText2: PropTypes.string
 }
 
 export default About

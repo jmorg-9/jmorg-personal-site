@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import Content from '../components/Content'
+import Resume from '../components/MyComponents/Resume'
 import Layout from '../components/Layout'
 import About from '../components/MyComponents/About'
 
@@ -16,10 +16,14 @@ export const HomePageTemplate = ({
   aboutBody,
   facebook,
   linkedin,
-  github
+  github,
+  resumeBackground,
+  resumeTitle,
+  resumeSubtitle
 }) => (
   <main className="Home">
     <PageHeader
+    displaySocialLinks
       large
       title={title}
       name={name}
@@ -37,7 +41,7 @@ export const HomePageTemplate = ({
     </section>
 
     <section className="section">
-      <div className="container">Resume section</div>
+        <Resume background={resumeBackground} title={resumeTitle} subtitle={resumeSubtitle}/>
     </section>
 
     <section className="section">
@@ -70,7 +74,10 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         headshot
+        resumeBackground
         aboutBody
+        resumeTitle
+        resumeSubtitle
         facebook
         linkedin
         github

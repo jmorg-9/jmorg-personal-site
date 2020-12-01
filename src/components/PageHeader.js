@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import Image from './Image'
-import Content from './Content'
 import './PageHeader.css'
 import {
   FaFacebookF,
@@ -20,6 +18,7 @@ const PageHeader = ({
   facebook,
   linkedin,
   github,
+  displaySocialLinks = false,
   className = ''
 }) => {
   if (large) className += ' PageHeader-large'
@@ -42,6 +41,7 @@ const PageHeader = ({
           </div>
           <div>{subtitle}</div>
         </h1>
+        {displaySocialLinks && (
         <ul className="social">
           <li>
             <a href={facebook} target="_blank" rel="noopener noreferrer">
@@ -59,6 +59,8 @@ const PageHeader = ({
             </a>
           </li>
         </ul>
+        )}
+        
         {/* <div className="chevron-box">
           <a className="chevron" href="/#About">
             <FaChevronDown />
