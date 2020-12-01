@@ -15,7 +15,7 @@ resumeSubtitle: >-
   years
 subtitle: I'm a full-stack web developer.
 aboutBody: >-
-  <div align="center"><h1>Who’s this guy?</h1></div>
+  <div><h1>Who’s this guy?</h1></div>
 
 
   I’m a Full-Stack Developer for Ebsco Industries in Birmingham, AL. I have
@@ -28,7 +28,7 @@ aboutBody: >-
   <br/>
 
 
-  <div align="center"><h1>A few fun facts about myself</h1></div>
+  <div><h1>A few fun facts about myself</h1></div>
 
 
   I was born in Honolulu Hawaii, I love basketball, I have a dog named Melo, I
