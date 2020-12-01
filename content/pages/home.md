@@ -18,9 +18,6 @@ aboutBody: >-
   <div align="center"><h1>Who’s this guy?</h1></div>
 
 
-  <br/>
-
-
   I’m a Full-Stack Developer for Ebsco Industries in Birmingham, AL. I have
   passion for creating clean, intuitive, responsive web apps using various
   technologies.
@@ -32,8 +29,6 @@ aboutBody: >-
 
 
   <div align="center"><h1>A few fun facts about myself</h1></div>
-
-  <br/>
 
 
   I was born in Honolulu Hawaii, I love basketball, I have a dog named Melo, I
