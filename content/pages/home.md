@@ -15,7 +15,7 @@ resumeSubtitle: >-
   years
 subtitle: I'm a full-stack web developer.
 aboutBody: >-
-  <div align="center"><b># Who’s this guy?</b></div>
+  <div align="center"><h1>Who’s this guy?</h1></div>
 
 
   <br/>
@@ -31,7 +31,7 @@ aboutBody: >-
   <br/>
 
 
-  <div align="center"><b>A few fun facts about myself</b></div>
+  <div align="center"><h1>A few fun facts about myself</h1></div>
 
   <br/>
 
